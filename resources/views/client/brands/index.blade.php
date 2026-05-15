@@ -1,38 +1,38 @@
 @extends('client.layouts.head')
 
 @section('main-content')
-    <div class="container-lg my-4">
-        <div class="d-flex justify-content-between align-items-center">
-            <div class="h3 mb-3">
-                Restaurants
+    <div class="container-lg py-5">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center mb-4 gap-3">
+            <div>
+                <span class="badge badge-soft rounded-pill px-3 py-2">Brands</span>
+                <h2 class="mt-3 fw-semibold">Japanese Automotive Brands</h2>
             </div>
+            <a href="{{ route('home.index') }}" class="text-decoration-none text-primary">Back to home</a>
         </div>
 
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
-            @forelse ($restaurants as $restaurant)
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            @forelse ($brands as $brand)
                 <div class="col">
-                    <a href="{{ route('restaurants.show', $restaurant->id) }}" class="text-decoration-none text-dark">
-                        <div class="border border-1 p-3 rounded-2 h-100">
-                            <div class="position-relative">
-                                <img src="{{ asset('img/meal.jpg') }}" class="img-fluid rounded-2" alt="">
+                    <a href="{{ route('brands.show', $brand->id) }}" class="text-decoration-none">
+                        <div class="card card-hover h-100 border-0 shadow-sm p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <div class="badge badge-soft rounded-pill px-3 py-2">Brand</div>
+                                <i class="bi bi-building fs-4 text-primary"></i>
                             </div>
-                            <div class="h5 mb-auto mt-2">
-                                {{ $restaurant->name }}
-                            </div>
+                            <h5 class="mb-2 text-dark">{{ $brand->name }}</h5>
+                            <p class="text-muted small mb-0">Browse vehicles from this brand.</p>
                         </div>
                     </a>
                 </div>
             @empty
-                <div class="col">
-                    <div class="alert alert-warning">
-                        Restaurants not found :(
-                    </div>
+                <div class="col-12">
+                    <div class="alert alert-warning mb-0">Brands not found.</div>
                 </div>
-            @endempty
+            @endforelse
         </div>
 
-        <div class="mt-4">
-            {{ $restaurants->links('pagination::bootstrap-5') }}
+        <div class="mt-5">
+            {{ $brands->links('pagination::bootstrap-5') }}
         </div>
     </div>
 @endsection

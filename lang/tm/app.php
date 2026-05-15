@@ -1,7 +1,6 @@
 <?php
 return [
     'welcome' => 'Hoş geldiňiz',
-    'restaurants' => 'Restoranlar',
-    'allFoods' => 'Ähli tagamlar',
-    'allRestaurants' => 'Ähli restoranlar'
+    'brands' => 'Markalar',
+    'allModels' => 'Hemme Modeller'
 ];

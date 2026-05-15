@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | Supra</title>
+    <title>Login | JDM Autos</title>
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/pagination.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap-icons.min.css') }}">
@@ -18,7 +18,7 @@
         <div class="row min-vh-100 align-items-center justify-content-center py-4">
             <div class="col-11 col-sm-9 col-md-7 col-lg-5 col-xl-4">
                 <div class="display-3 fw-bold text-success mb-4 text-center">
-                    SUPRA
+                    JDM Autos
                 </div>
 
                 @if ($errors->any())

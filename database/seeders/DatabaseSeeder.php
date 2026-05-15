@@ -15,16 +15,20 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+        User::create([
+            'name' => 'Aganur Parahadow',
+            'username' => 'agashka_jdm',
+            'password' => bcrypt('12345678')
+        ]);
         $this->call([
             \Database\Seeders\BrandSeeder::class,
             \Database\Seeders\ModelSeeder::class,
             \Database\Seeders\CarSeeder::class,
         ]);
         
-        \App\Models\Car::factory(4)->create();
+        \App\Models\Car::factory(1)->create();
+        \App\Models\Brand::factory(1)->create();
+        \App\Models\Modeli::factory(1)->create();
+        // \App\Models\Year::factory(1)->create();
     }
 }

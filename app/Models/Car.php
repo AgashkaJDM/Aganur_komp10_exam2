@@ -8,4 +8,14 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 class Car extends Model
 {
     use HasFactory;
+
+    public function brand()
+    {
+        return $this->belongsTo(Brand::class, 'brand_id');
+    }
+
+    public function modeli()
+    {
+        return $this->belongsTo(Modeli::class, 'modeli_id');
+    }
 }
