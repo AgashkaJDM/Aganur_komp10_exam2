@@ -633,23 +633,10 @@ class CarSeeder extends Seeder
 
 
 
+
+
             ['brand_id'=>1,
             'model_id'=>27,
-            'name'=>'Toyota Fortuner',
-            'year'=>'2020-2026',
-            'description'=>'среднеразмерный внедорожник, основанный на платформе Toyota Hilux. Первоначально выпускался только в Таиланде, 
-            но позже стал выпускаться в Индонезии и других странах. В 2017 году Fortuner вышел на российский рынок. ',
-            'engine'=>'2.7 L 2TR-FE,
-                        4.0 L 1GR-FE V6,
-                        2.5 L 2KD-FTV,
-                        3.0 L 1KD-FTV turbokompressor',
-            'wheel_drive'=>'AWD'],
-
-
-
-
-            ['brand_id'=>1,
-            'model_id'=>28,
             'name'=>'Toyota Land Cruiser 300',
             'year'=>'2021-2026',
             'description'=>'Облегчённая пространственная рама, сваренная с помощью лазера, на 20% жёстче, чем у LC200. 
@@ -661,7 +648,7 @@ class CarSeeder extends Seeder
 
 
             ['brand_id'=>1,
-            'model_id'=>29,
+            'model_id'=>28,
             'name'=>'Toyota Sequoia',
             'year'=>'2022-2026',
             'description'=>'Sequoia третьего поколения была представлена 25 января 2022 года для 2023 модельного года. 
@@ -676,7 +663,7 @@ class CarSeeder extends Seeder
 
 
             ['brand_id'=>1,
-            'model_id'=>30,
+            'model_id'=>29,
             'name'=>'Toyota Alphard',
             'year'=>'2015-2026',
             'description'=>'Alphard третьего поколения был представлен 26 января 2015 года с обновленным внешним видом и 
@@ -691,7 +678,7 @@ class CarSeeder extends Seeder
 
 
             ['brand_id'=>1,
-            'model_id'=>31,
+            'model_id'=>30,
             'name'=>'Toyota Vellfire',
             'year'=>'2015-2017',
             'description'=>'Vellfire третьего поколения был представлен 26 января 2015 года с обновленным внешним видом и 
@@ -707,7 +694,7 @@ class CarSeeder extends Seeder
 
 
             ['brand_id'=>1,
-            'model_id'=>32,
+            'model_id'=>31,
             'name'=>'Toyota Veloz',
             'year'=>'2021-2026',
             'description'=>'Veloz позиционируется как третье поколение Toyota Avanza[6]. В разработке принимал участие главный 
@@ -721,7 +708,7 @@ class CarSeeder extends Seeder
 
 
             ['brand_id'=>1,
-            'model_id'=>33,
+            'model_id'=>32,
             'name'=>'Toyota Calya',
             'year'=>'2016-2026',
             'description'=>'В базовой комплектации могли быть электростеклоподъёмники, обогрев и кондиционирование второго 
@@ -737,7 +724,7 @@ class CarSeeder extends Seeder
 
 
             ['brand_id'=>1,
-            'model_id'=>34,
+            'model_id'=>33,
             'name'=>'Toyota Hiace Long Van 2.0 DX',
             'year'=>'2004-2019',
             'description'=>'Пятое поколение HiAce было запущено в продажу 23 августа 2004 года в Японии. 
@@ -753,7 +740,7 @@ class CarSeeder extends Seeder
 
 
             ['brand_id'=>1,
-            'model_id'=>35,
+            'model_id'=>34,
             'name'=>'Toyota Innova AN40',
             'year'=>'2004-2016',
             'description'=>'Первое поколение автомобилей Toyota Innova выпускалось с августа 2004 по октябрь 2015 
@@ -769,7 +756,7 @@ class CarSeeder extends Seeder
 
 
             ['brand_id'=>1,
-            'model_id'=>36,
+            'model_id'=>35,
             'name'=>'Toyota Noah',
             'year'=>'2001-2026',
             'description'=>'У Toyota Noah можно легко убрать задний ряд сидений и получить большой багажник для 
@@ -789,7 +776,7 @@ class CarSeeder extends Seeder
 
 
             ['brand_id'=>1,
-            'model_id'=>37,
+            'model_id'=>36,
             'name'=>'Toyota Voxy',
             'year'=>'2022-2026',
             'description'=>'Новая Toyota Voxy — это не просто обновлённый кузов и новые фары. Это целая философия. Минивэн сохранил прямоугольный 

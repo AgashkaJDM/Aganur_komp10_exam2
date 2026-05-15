@@ -13,7 +13,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
             @foreach ($models as $model)
                 <div class="col">
-                    <a href="{{ route('cars.index', ['modeliId' => $model->id]) }}" class="text-decoration-none">
+                    <a href="{{ route('modeli.show', $model->id) }}" class="text-decoration-none">
                         <div class="card card-hover h-100 border-0 shadow-sm p-4">
                             <div class="d-flex align-items-center justify-content-between mb-3">
                                 <div class="badge badge-soft rounded-pill px-3 py-2">Model</div>
@@ -25,6 +25,9 @@
                     </a>
                 </div>
             @endforeach
+        </div>
+        <div class="mt-5">
+            {{ $models->links('pagination::bootstrap-5') }}
         </div>
     </div>
 @endsection

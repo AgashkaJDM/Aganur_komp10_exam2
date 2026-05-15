@@ -9,8 +9,8 @@ use App\Models\Modeli;
 class ModeliController extends Controller
 {
     public function index(){
-        $modeli = Modeli::paginate(25);
-        return view('client.models.index', compact('modeli'));
+        $models = Modeli::paginate(20);
+        return view('client.models.index', compact('models'));
     }
 
 
