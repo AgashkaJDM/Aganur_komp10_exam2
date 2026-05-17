@@ -10,6 +10,11 @@ class Modeli extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'brand_id',
+        'name'
+    ];
+
     public function cars()
     {
         return $this->hasMany(Car::class, 'modeli_id');

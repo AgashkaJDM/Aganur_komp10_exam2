@@ -1,6 +1,6 @@
 <?php
 return [
-    'welcome' => 'Hoş geldiňiz',
+    'welcome' => 'Yaponiyanyn awtoulaglary barada gyzykly maglumatlar.',
     'brands' => 'Markalar',
     'allModels' => 'Hemme Modeller'
 ];

@@ -1,0 +1,9 @@
+find() - bu databasadan maglumatlary alyar. Abycno id arkaly bir zat tapmagy ucin ulanylyar.
+Meselem: findOrFail($id) - bu databasadan sol id lyny tapyp beryar, tapmasa yalnyslyk beryar.
+
+
+Route::post() - route bul ulanyjy bir zada basanda sonun nira gitmeldigni gorkezyar. Yagny ulanyjy sayda girende
+onun haysy sahypa gitmeldigni gorkezyar. ol hem get() bilen post() bolunyar ondan post() bul maglumatlary acyk gornusde akidyar
+
+
+Schema::create() - databasada table doretmek ucin ulanylyar. Ol table da hem bir zadyn yada birnace zatlaryn maglumatlaryny saklap bolyar.

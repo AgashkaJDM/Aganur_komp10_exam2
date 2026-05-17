@@ -5,7 +5,7 @@
         <div class="row align-items-center gy-5">
             <div class="col-lg-6">
                 <span class="badge badge-soft rounded-pill px-3 py-2 mb-3">Discover Japan</span>
-                <h1 class="display-5 fw-bold">Premium Japanese Autos, curated for modern drivers.</h1>
+                <h1 class="display-5 fw-bold">{{ __('app.welcome') }}</h1>
                 <p class="lead text-secondary mt-4">Browse the latest models, explore top brands, and find the perfect car with elegant, intuitive design.</p>
                 <div class="mt-4 d-flex flex-wrap gap-2">
                     <a href="{{ route('cars.index') }}" class="btn btn-primary btn-lg rounded-pill">Browse Cars</a>
@@ -14,7 +14,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="card hero-card shadow-sm overflow-hidden border-0 hero-feature">
-                    <img src="{{ asset('img/image2.jpg') }}" class="card-img-top card-img-cover" alt="Japanese automotive showcase">
+                    <img src="{{ asset('img/foood.jpg') }}" class="card-img-top card-img-cover" alt="Japanese automotive showcase">
                 </div>
             </div>
         </div>

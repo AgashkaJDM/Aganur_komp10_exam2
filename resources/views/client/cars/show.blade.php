@@ -5,7 +5,7 @@
         <div class="row g-4">
             <div class="col-lg-8">
                 <div class="card hero-card shadow-sm overflow-hidden">
-                    <img src="{{ asset($car->image_1 ? 'img/' . $car->image_1 : 'img/image2.jpg') }}" class="card-img-top card-img-cover" alt="{{ $car->image_1_name ?? $car->name }}">
+                    <img src="{{ asset($car->image_1 ? 'img/' . $car->image_1 : 'img/image2.jpg') }}" class="card-img-top card-img-cover w-100" alt="{{ $car->image_1_name ?? $car->name }}">
                     <div class="card-body px-5 py-5">
                         <div class="d-flex flex-column flex-md-row justify-content-between align-items-start gap-3">
                             <div>
